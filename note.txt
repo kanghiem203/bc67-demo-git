@@ -1,0 +1,21 @@
+git: phần mềm quản lý code (Version Control System)
+github: là nơi quản lý code online(icloud, drive,....)
+
+
+
+1. Khai báo các thiết lập:
+
+a. Cấu hình name & email
+git config --global user.name "Your name"
+git config --global user.email "Your@email.com"
+
+b. Kiểm tra thông tin sau khi cấu hình
+git config --global user.name
+git config --global user.email
+
+2. Khởi tạo dự án
+
+a. khởi tạo repo local
+git init 
+b. tạo liên kết giữa repo local và repo remote
+git remote add origin "link"
