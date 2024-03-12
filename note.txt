@@ -17,5 +17,11 @@ git config --global user.email
 
 a. khởi tạo repo local
 git init 
+
 b. tạo liên kết giữa repo local và repo remote
 git remote add origin "link"
+
+c. Đưa code lên github: 3 bước
+git add -A 
+git commit -m "noi dung commit"
+git push -u origin master (lần đầu tiên)/ git push (lần thứ 2 trở đi)
